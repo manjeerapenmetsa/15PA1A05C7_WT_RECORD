@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mcq [
+    <!ELEMENT mcq(questionid,description,choiceA,choiceB,choiceC,answer,Explanation)>
+    <!ELEMENT questionid(#PCDATA)>
+    <!ELEMENT description(#PCDATA)>
+    <!ELEMENT choiceA(#PCDATA)>
+    <!ELEMENT choiceB(#PCDATA)>
+    <!ELEMENT choiceC(#PCDATA)>
+    <!ELEMENT answer(#PCDATA)>
+    <!ELEMENT Explanation(#PCDATA)>
+]>
+<mcq>
+        <questionid>1</questionid>
+        <description>What is the capital of India?</description>
+        <choiceA>Panaji</choiceA>
+        <choiceB>NewDelhi</choiceB>
+        <choiceC>Itanagar</choiceC>
+        <answer>B</answer>
+        <Explanation>NewDelhi is the capital of India</Explanation>
+</mcq>

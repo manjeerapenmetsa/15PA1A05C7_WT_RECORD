@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+  <head>
+    <script>
+      function interest(){
+        var p=document.getElementById("p").value;
+        var t=document.getElementById("t").value;
+        var r=document.getElementById("r").value;
+        document.getElementById("result").innerHTML="Result=" + ((p*t*r)/100);
+      }
+    </script>
+  </head>
+  <body>
+    Enter P:<input type="text" id="p" placeholder="Enter the value"> <br><br>
+    Enter T:<input type="text" id="t" placeholder="Enter the value"> <br><br>
+    Enter R:<input type="text" id="r" placeholder="Enter the value"> <br><br>
+    <button onclick="interest()" id="demo" type="button" value="submit">Submit</button>
+    <p id="result"></p>
+  </body>
+</html>
